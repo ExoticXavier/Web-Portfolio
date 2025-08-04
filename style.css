@@ -1,0 +1,66 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.pfp{
+    width: 250px;
+    height: 250px;
+}
+
+.kenwood{
+    width: 100px;
+    height: 100px;
+}
+
+.bordertest{
+    border: 2px solid white;
+    padding: 15px; /* note to self this is the space inside the border*/
+    width: 550px; /* fitcontent/ shrinks to fit content*/
+    margin: 20px; /* space outside the border*/
+
+}
+.gallery{
+    float: left;
+}
+
+.background{
+  background-image: url(image/220783.gif); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+@font-face {
+    font-family: margin;
+    src: url(MARGIE.ttf);
+}
